@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #f5f5f5;
+  font-family: "Lato", sans-serif;
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 2px solid #eee;
+}
+
+.nav-logo {
+  font-family: "Roboto Slab", serif;
+}
